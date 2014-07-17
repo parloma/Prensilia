@@ -1,0 +1,36 @@
+#Reference pose of PRENSILIA Hand wrt specified poses
+#Joints order 'middle', 'ring', 'little', 'thumb', 'thumb_o'
+Performin Sign A
+252 254 254 255 4
+Performin Sign B
+16 1 0 255 255
+Performin Sign C
+128 128 71 128 66
+Performin Sign D
+252 255 254 254 0
+Performin Sign F
+11 1 116 183 182
+Performin Sign H
+127 1 254 254 0
+Performin Sign I
+252 254 116 254 1
+Performin Sign K
+183 254 254 255 4
+Performin Sign L
+254 254 254 19 4
+Performin Sign O
+128 128 71 192 130
+Performin Sign P2
+192 254 254 254 0
+Performin Sign S1
+254 254 254 0 4
+Performin Sign V
+1 254 254 255 0
+Performin Sign W
+1 0 254 255 0
+Performin Sign X
+254 1 254 254 0
+Performin Sign Y
+1 254 115 0 4
+Performin Sign REST
+15 0 115 0 4
