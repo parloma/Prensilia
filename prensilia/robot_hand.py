@@ -249,23 +249,24 @@ class Hand:
         
 
 if __name__=="__main__":
-    hand = Hand('/dev/ttyUSB0')
-    
+    #hand = Hand('/dev/ttyUSB0')
+    hand = Hand('COM8')
+	
     #hand.perform_hardCalibration()
     #time.sleep(60)
-    #hand.perform_rest()
-    #time.sleep(2)
+    hand.perform_rest()
+    time.sleep(2)
     #hand.FNCT_LIST['H'](hand)
 
     #time.sleep(5)
     #print hand.perform_sign('REST')
 
     #for msg in hand.SIGN_LIST:
-    #for msg in ['D','F','H']:
-    for msg in ['REST']:
-        hand.perform_rest()
-        print 'Performin Sign ' + msg
-        time.sleep(2)
-        hand.FNCT_LIST[msg](hand)
-        time.sleep(5)
-        hand.get_sign()
+    #for msg in ['B','A','F','H','X','W']:
+    #for msg in ['REST']:
+        #hand.perform_rest()
+        #print 'Performin Sign ' + msg
+        #time.sleep(2)
+        #hand.FNCT_LIST[msg](hand)
+        #time.sleep(5)
+        #hand.get_sign()
